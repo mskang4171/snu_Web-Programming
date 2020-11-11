@@ -28,7 +28,7 @@ class Dog extends Animal {
 class Cat extends Animal {
   bark() {
     console.log(`${this.name} : meow`);
-  } // 동일한 이름의 함수에 대하여 다른 작업을 수행할 수 있다.
+  } // 동일한 이름의 method에 대하여 다른 작업을 수행할 수 있다.
 }
 
 const dog = new Dog("Bowl", 30, 30, "Black");
